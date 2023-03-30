@@ -22,4 +22,6 @@
     activate server
     server-->>browser: the JavaScript file
     deactivate server
+    
+    Note right of browser: The browser starts executing the JavaScript code that fetches the JSON from the server
 ```
